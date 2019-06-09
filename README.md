@@ -1,4 +1,8 @@
 # Landmark-identification-for-Android
-The code of this repository is divided into two parts:
-1. Data Preprocess and Transfer learning for ResNet and DenseNet
-2. Android development with offline inference
+There are four python files in the repository.
+training model: Train the data set based on DenseNet or ResNet.
+ImageProcess: Data preprocessing. Transfer images to nump.array and store locally.
+Prediction: It can use both for prediction or evaluate the accuracy of the trained model.
+ConvertToTensorflow: Convert the keras model to tensorflow model. It is for further android development.
+## Android Application Development for Image Recognition
+The source code of application is provided [here]()
